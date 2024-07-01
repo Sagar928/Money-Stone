@@ -1,0 +1,470 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.model-bg{
+  position: fixed;
+  width: 100%;
+  height: 160vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s;
+}
+.model-close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.bg-active{
+  visibility: visible;
+  opacity: 1;
+}
+.model{
+  position: relative;
+  background-image: url("loginbg.jpg");
+  background-size: cover;
+  width: 25%;
+  transform: translate(145%,90%);
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px 5px 25px 5px;
+  text-align: center;
+}
+.model h2{
+  font-family: candara;
+  font-weight: normal;
+  font-weight: 25px;
+  position: static;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.model label{
+  font-weight:lighter;
+}
+
+.model input[type="text"]{
+  padding: 5px 5px 5px 5px;
+transition: 0.4s ease-out;
+height:30px;
+width: 85%;
+}
+::placeholder{
+  font-size: 15px;
+}
+.model input[type="password"]{
+  padding: 5px 5px 5px 5px;
+  transition: 0.4s ease-out;
+  height:30px;
+  width: 85%;
+}
+.model input[type="submit"]{
+  color: black;
+  font-family: candara;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  background-color: lightgreen;
+  transition: 0.2s ease-out;
+}
+.model input[type="submit"]:hover{
+  color: green;
+  background-color: white;
+}
+.model-close{
+  margin-right: 10px;
+}
+.Navbar1{
+  height: 90px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+.services a{
+  color: white;
+  text-decoration: none;
+  float: right;
+  margin-left: 35px;
+  margin-top: 35px;
+  margin-right: 35px;
+  font-size: 16px;
+  font-family: 'MuseoSans', sans-serif;
+  transition: .4s ease-out;
+}
+a:hover{
+  color: lightgreen;
+}
+.services img{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.changebg{
+  height: 420px;
+  width: 100%;
+  background-position: top;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  animation: animate 16s linear infinite;
+}
+.changebg h1{
+  text-align: center;
+  text-decoration: none;
+  margin-top: 50px;
+  font-family: candara;
+  font-weight: 500;
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 4px black;
+  letter-spacing: 4px;
+}
+.changebg button{
+  margin-left: 680px;
+  margin-top: 40px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightgreen;
+  transition: .3s ease-out;
+}
+.changebg button:hover{
+  transform: translateY(10px);
+  background-color: #32CD32;
+}
+.changebg button:hover::before{
+  opacity: 1;
+}
+.typing{
+  position: relative;
+  margin-left: 580px;
+  font-family: monospace;
+  font-size: 35px;
+  color: black;
+}
+.typing::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  border-right: 2px solid white;
+  animation: blink 0.5s infinite ease;
+}
+.Navbar2{
+  display: flex;
+  background-color: rgba(0,0,0,0.1);
+  height: 190px;
+  width: 100%;
+}
+.conflict{
+  margin-left: 230px;
+  height: inherit;
+  width: 350px;
+}
+.conflict p{
+  margin-left: 130px;
+}
+.conflict h4{
+  margin-left: 115px;
+  text-decoration: none;
+  font-family: candara;
+  font-size: 20px;
+  letter-spacing: 0.99px;
+  color: green;
+}
+.goal{
+  height: inherit;
+  width: 350px;
+}
+.goal p{
+  margin-left: 130px;
+}
+.goal h4{
+  margin-left: 125px;
+  font-family:candara;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: green;
+}
+.convenient{
+  height: inherit;
+  width: 350px;
+}
+.convenient p{
+  margin-left: 130px;
+}
+.convenient h4{
+  margin-left: 80px;
+  font-family: candara;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: green;
+}
+.todowork{
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+.yourself{
+  height: 500px;
+  width: 50%;
+  background-color: white;
+  background: url("bgfirst.png");
+  background-size: cover;
+}
+.yourself img{
+  margin-left: 48%;
+  margin-top: 40px;
+}
+.yourself h1{
+  margin-left: 300px;
+  font-family: 'MuseoSans', sans-serif;
+  color: #228B22;
+}
+.yourself p{
+  margin-left: 140px;
+  font-family: 'MuseoSans', sans-serif;
+}
+.yourself:hover{
+  transition: opacity 1s ease-in-out;
+  background: white;
+}
+.yourself button{
+  font-family: candara;
+  margin-left: 330px;
+  padding: 5px 15px 5px 15px;
+  background-color: lightgreen;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  transition: .4s ease-out;
+}
+.yourself button:hover{
+  background: #32CD32;
+}
+.expert{
+  height: 500px;
+  width: 50%;
+  background-color: pink;
+  background: url("bgsecond.png");
+  background-size: cover;
+}
+.expert img{
+  margin-left: 47%;
+  margin-top: 40px;
+}
+.expert h1{
+  margin-left: 280px;
+  font-family: 'MuseoSans', sans-serif;
+  color: #228B22;
+}
+.expert p{
+  margin-left: 180px;
+  font-family: 'MuseoSans', sans-serif;
+}
+.expert:hover{
+  transition: opacity 1s ease-in-out;
+  background: white;
+}
+.expert button{
+  font-family: candara;
+  margin-left: 315px;
+  padding: 5px 15px 5px 15px;
+  background-color: lightgreen;
+  background-color: lightgreen;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+  transition: .4s ease-out;
+}
+.expert button:hover{
+  background: #32CD32;
+}
+.word{
+  margin-top: -35px;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+  background-color: lightgreen;
+}
+.word p{
+  text-align: center;
+  font-size: 35px;
+  font-family: candara;
+  font-weight: lighter;
+}
+.testimonials{
+  background-image: url("new5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  height: 400px;
+  width: 100%;
+}
+.middle{
+  height: 400px;
+  width: 910px;
+  background: transparent;
+  margin-left: 300px;
+  transition: left 2s;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+}
+.slider{
+  overflow: hidden;
+}
+.slides{
+  display: flex;
+}
+.slides input{
+  display: none;
+}
+.slide{
+  transition: 2s;
+}
+.manual-navigation{
+  position: absolute;
+  display: flex;
+  margin-top: -50px;
+  margin-left: 355px;
+}
+.manual-btn{
+  padding: 5px;
+  border: 2px solid lightgreen;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+.manual-btn:hover{
+  background: lightgreen;
+}
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -100%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -200%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -300%;
+}
+.auto-navigation{
+  position: absolute;
+  display: flex;
+  margin-left: 355px;
+  margin-top: 355px;
+}
+.auto-navigation div{
+  border: 2px solid lightgreen;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+  justify-content: center;
+}
+.auto-navigation div:not(:last-child){
+  margin-right: 40px;
+}
+#radio1:checked ~ .auto-navigation .auto-btn1{
+  background: lightgreen;
+}
+
+#radio2:checked ~ .auto-navigation .auto-btn2{
+  background: lightgreen;
+}
+
+#radio3:checked ~ .auto-navigation .auto-btn3{
+  background: black;
+}
+
+#radio4:checked ~ .auto-navigation .auto-btn4{
+  background: black;
+}
+.slide first{
+  background: transparent;
+}
+.slide{
+  background: transparent;
+}
+h1{
+  color: white;
+}
+@keyframes animate{
+  0%,100%{
+    background-image: url("p1.png");
+  }
+  25%{
+    background-image: url("p2.png");
+  }
+  50%{
+    background-image: url("pic2.jpg");
+  }
+  75%{
+    background-image: url("pic1.jpg");
+  }
+}
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 2;
+  }
+}
+.temp{
+  margin-top: -20px;
+  height: 800px;
+  width: 100%;
+  background-color: #37BC61;/*#42acd3*/
+}
+.temp h1{
+  text-align: center;
+  font-weight: normal;
+  font-family: -apple-system,BlinkMacSystemFont,
+  "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  padding-top: 60px;
+}
+.side{
+  display: flex;
+}
+.side img{
+  padding-top: 100px;
+  padding-left: 150px;
+}
+.side p{
+  margin-top: 170px;
+  margin-left: 150px;
+  line-height: 45px;
+  color: white;
+  font-size: 23px;
+  font-family: candara;
+}
+.Footer{
+  height: 220px;
+  width: 100%;
+  background: lightblue;
+}
+.Footer p{
+  text-align: center;
+  font-family: candara;
+  font-size: 17px;
+  line-height: 45px;
+}
+.risks{
+  align-self: baseline;
+  height: 80px;
+  width: 100%;
+  background-color: #adbce6;
+}

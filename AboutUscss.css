@@ -1,0 +1,87 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: lightblue;
+  height: 2000px;
+}
+.Top{
+  margin-top: -20px;
+  height: 400px;
+  width: 100%;
+  background-image: url("aboutusbg.jpg");
+  background-size: cover;
+
+}
+.Top h1{
+  padding-top: 150px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+  color: white;
+  letter-spacing: 3px;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px black;
+}
+.Top h4{
+  text-align: center;
+  font-size: 23px;
+  font-weight: normal;
+  color: white;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  padding-top: 60px;
+  text-align: center;
+  font-family: candara;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.Benefits{
+  height: 550px;
+}
+.row1,.row2,.row3{
+  display: flex;
+  padding-top: 50px;
+}
+.col1row1,.col2row1,.col3row1{
+  text-align: center;
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: candara;
+  font-weight: normal;
+  height: 90px;
+  width: 420px;
+  background-color: rgba(0,0,0,0.2);
+}
+.col1row2,.col2row2,.col3row2{
+  text-align: center;
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: candara;
+  font-weight: normal;
+  height: 90px;
+  width: 420px;
+  background-color: rgba(0,0,0,0.2);
+}
+.col1row3,.col2row3,.col3row3{
+  text-align: center;
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: candara;
+  font-weight: normal;
+  height: 90px;
+  width: 420px;
+  background-color: rgba(0,0,0,0.2);
+}
+.Possible{
+  height: 700px;
+  width: 100%;
+  background-color: white;
+}
+.Possible h1{
+  padding-bottom: 10px;
+}
+.Possible img{
+  margin-left: 250px;
+}

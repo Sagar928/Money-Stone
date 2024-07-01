@@ -1,0 +1,161 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.bg{
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  width: 100%;
+  background-image: url("wms.png");
+  background-size: cover;
+}
+.bg img{
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+
+}
+.bg h2{
+  text-align: center;
+  margin-top: 20px;
+  font-family:  candara;
+  font-weight: bolder;
+  color: lightgreen;
+  text-shadow: 1px 2px black;
+  font-size: 40px;
+}
+.bg h4{
+  text-align: center;
+  margin-top: 20px;
+  font-family:  candara;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 1px 2px black;
+  font-size: 30px;
+}
+.graph{
+  padding-top: 5px;
+  height: 500px;
+  width: 100%;
+}
+.plan{
+  background-color: white;
+  height: 1400px;
+  width: 100%;
+}
+.plan h1{
+  text-align: center;
+  font-family: candara;
+  font-weight: normal;
+  padding-top: 80px;
+  font-size: 40px;
+}
+.row1{
+  display: flex;
+  padding-top: 80px;
+}
+.row2{
+  display: flex;
+  padding-top: 80px;
+}
+.planset1{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.planset1 img{
+  margin-left: 90px;
+}
+.planset1 h4,p{
+  font-size: 20px;
+  text-align: center;
+  font-family: candara;
+}
+.planset2{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.planset2 img{
+  margin-left: 90px;
+}
+.planset2 h4,p{
+    font-size: 20px;
+  text-align: center;
+  font-family: candara;
+  font-size: 18px;
+}
+.planset3{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.planset3 img{
+  margin-left: 90px;
+}
+.planset3 h4,p{
+    font-size: 20px;
+  text-align: center;
+  font-family: candara;
+}
+.planset4{
+  padding-left: 100px;
+}
+.planset4 h4,p{
+  font-size: 20px;
+  text-align: center;
+  font-family: candara;
+}
+.planset4 img{
+  margin-left: 200px;
+}
+.planset5{
+  padding-left: 200px;
+}
+.planset5 h4,p{
+    font-size: 20px;
+  text-align: center;
+  font-family: candara;
+}
+.planset5 img{
+  margin-left: 200px;
+}
+.plan h2{
+  font-family: candara;
+  text-align: center;
+  padding-top: 30px;
+}
+.plan button{
+  margin-left: 680px;
+  margin-top: 40px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightgreen;
+  transition: .3s ease-out;
+}
+.plan button:hover{
+  transform: translateY(10px);
+  background-color: #32CD32;
+}
+.footer{
+  height: 180px;
+  width: 100%;
+  background-color: black;
+}
+.footer h1{
+  padding-top: 25px;
+  padding-left: 20px;
+  font-family: candara;
+  font-weight: lighter;
+  font-size: 23px;
+  color: white;
+}
+.footer h3{
+  padding-left: 600px;
+  font-family: candara;
+  font-weight: lighter;
+  font-size: 18px;
+  color: white;
+}

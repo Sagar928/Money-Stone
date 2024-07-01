@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Index Page For the Website </title>
+    <link rel="stylesheet" href="indexcss.css">
+   <!-- <script>
+      function Windows(){
+        Mywindow = window.open("Ban1.jpg", 'status=0, toolbar=0, location=0, menubar=0, directories=0, resizable=0,  height=250, width=250')
+      }
+      function Launch() {
+       for (i=0; i < 5;i++){
+        Win =window.open('','win'+i,'width=50,height=50')
+       }
+    }
+    </script>
+  -->
+    <script>
+     function Cookie(){
+        prompt("Enter the Name");
+      }
+       function WriteCookie(){
+            var person = prompt('Enter the Access Username')
+            with (document.CookieWriter){
+              document.cookie =
+                       "UserName="+ customer.value+";"
+              alert("Cookie Written")
+        }
+ }
+    </script>
+</head>
+<body onload="WriteCookie()">
+  <!-- <form method="POST"> 
+    <input name = "Surprise" value = "Surprise" type="button" onclick = "Windows()"/>
+    </form>
+    
+    <FORM action="http://www.jimkeogh.com" method="post">
+      <P>
+      <INPUT name="Click for More!"
+      value="Click for More!" type="button"
+      onclick="Launch()"/>
+      </P>
+    </FORM>  -->
+    <div class="Container">
+      <div class="model-bg">
+        <div class="model">
+          <h2>Login Form</h2>
+          <form>
+          <input type="text" name="username" autocomplete="off" required placeholder="User Name"><br><br>
+          <input type="password" name="password" max="8" autocomplete="off" required placeholder="Password"> <br><br>
+          <a href="#">forgot password</a><br><br>
+          <input type="submit" name="login" value="Log In">
+          <div class="circle">
+          <span class="model-close">X</span>
+          </div>
+          </form>
+        </div>
+      </div>
+      <div class="changebg">
+        <div class="Navbar1">
+          <div class="services">
+            <img src="moneystone.png" height="70">
+            <a href="signup.html">Sign Up</a>
+            <a href="#" class="LogIn">Log In</a>
+            <a href="Contact.html">CONTACT US</a>
+            <a href="Im_Money.html">OUR IMPACT</a>
+            <a href="AboutUs .html">ABOUT US</a>
+            <a href="WhyMoneyStone.html">WHY MONEY STONE</a>
+          </div>
+        </div>
+        <h1>A Wealth Creation Platform For</h1>
+        <h2 class="typing"></h2>
+        <a href="GetStarted.html">
+        <button type="button" class="LogIn">Get Started</button>
+        </a>
+      </div>
+      <div class="Navbar2">
+          <div class="conflict">
+            <p> <img src="conflict-free.png" height="95"></p>
+            <h4>Conflict Free</h4>
+          </div>
+          <div class="goal">
+            <p> <img src="goal-based.png" height="95"></p>
+            <h4>Goal Based</h4>
+          </div>
+          <div class="convenient">
+            <p> <img src="convenient.png" height="95"></p>
+            <h4>Convenient Transactions</h4>
+          </div>
+      </div>
+      <div class="todowork">
+        <div class="yourself">
+          <img src="doit.png" height="80">
+          <h1>Do It Yourself</h1>
+          <p>“Do It Yourself” is suited for individuals who want complete control and<br>
+             are short on time. The platform is convenient and allows you to make<br>
+              your investments quickly, without human intervention.</p>
+              <a href="SignUp.html">
+              <button type="button" name="doit">Do It Yourself</button>
+              </a>
+        </div>
+        <div class="expert">
+          <img src="expt.png" height="80">
+          <h1>Get Expert Help</h1>
+          <p>“Expert Financial Help” is for individuals who would like to utilize our<br>
+             expertise in getting a comprehensive investment plan prepared from our<br>
+            investment managers and would be willing to spare time for the same.</p>
+            <a href="GetStarted(2).html">
+            <button type="button" name="doit">Get Expert Help</button>
+            </a>
+        </div>
+      </div>
+      <div class="word">
+        <p>Testimonials</p>
+      </div>
+      <div class="testimonials">
+        <div class="middle">
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+          <div class="slide first">
+              <img src="money1.png" height="400" width="910">
+          </div>
+          <div class="slide">
+              <img src="money2.jpg" height="400" width="910">
+          </div>
+          <div class="slide">
+              <img src="money3.jpg" height="400" width="910">
+          </div>
+          <div class="slide">
+              <img src="money4.png" height="400" width="910">
+          </div>
+
+          <div class="auto-navigation">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn1"></div>
+            <div class="auto-btn1"></div>
+            <div class="auto-btn1"></div>
+          </div>
+          </div>
+          <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+        </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+      var cnt= 1;
+      setInterval(function(){
+        document.getElementById('radio' + cnt).checked = true;
+        cnt++;
+        if(cnt > 4){
+          cnt = 1;
+        }
+      },3500);
+      </script>
+      <script src="indexjs.js"></script>
+      <script src="LogIn.js"></script>
+      <div class="temp">
+        <h1>Leave Your Financial Decisions To Us.</h1>
+        <div class="side">
+          <img src="timeline.png" height="500">
+          <p>In life, making those decisions on your<br>
+            investments or insurance or expenses are scary<br>
+            and yet, unavoidable. An average Indian loses at<br>
+            least INR 1 Crore by making the wrong financial<br>
+            decisions during their lifetime.<br>
+
+            This is where we come in to take care of your<br>
+            financial decisions so that you can live a life that<br>
+            you always wanted.</p>
+        </div>
+        </div>
+        <div class="Footer">
+          <div class="risks">
+          </div>
+          <p>Mutual Fund investments are subject to market risks, read all scheme related documents carefully. Past performance is not an indicator of future returns.</p>
+          <p>All rights reserved with MonetStone.</p>
+        </div>
+    </div>
+</body>
+</html>
